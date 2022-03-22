@@ -64,11 +64,11 @@ body {
 
 @media screen and (max-width: 864px) {
     #logo {
-        font-size: 7vw;
+        font-size: 9vw;
     }
 
     #logo>p {
-        font-size: 3vw;
+        font-size: 3.7vw;
     }
 }
 
@@ -93,13 +93,10 @@ body {
     font-family: 'poppins';
 }
 
-#searchbar>select:nth-child(1) {
-    border-radius: 0.4rem 0 0 0.4rem;
-}
+
 
 #searchbar>select:nth-child(2) {
     margin-left: 3px;
-    border-radius: 0 0.4rem 0.4rem 0;
 
 }
 
@@ -126,14 +123,10 @@ select>option {
         margin-top: 2%;
     }
 
-    #searchbar>select:nth-child(1) {
-        border-radius: 0.4rem;
-    }
+
 
     #searchbar>select:nth-child(2) {
         margin-left: 3px;
-        border-radius: 0.4rem;
-
     }
 
     #searchbar>select>option {
@@ -141,3 +134,114 @@ select>option {
     }
 
 }
+
+/* CARD ROW ONE*/
+
+#con1 {
+    margin-top: 30px;
+    padding: 1%
+}
+
+#row1 {
+    display: flex;
+    justify-content: center;
+    padding:0 10px;
+}
+
+#rowcol1 {
+    margin-bottom: 20px;
+    height: maz-content;
+    display: flex;
+}
+
+.card {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    border-radius: 1rem;
+    background: none;
+    box-shadow: 1px 1px 9px rgb(255, 255, 255, 0.2);
+    padding: 0;
+}
+
+#card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+
+#cardtitle {
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 0 0 1rem 1rem;
+    position: relative;
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+    padding-top: 5%
+}
+
+#card-link {
+    text-decoration: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.cardimage {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem 1rem 0 0;
+
+}
+
+#card1 {
+    background: url(https://i.ibb.co/ZMbTFh5/Burgerrr.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: 90%;
+}
+
+#card2 {
+    background: url(https://i.ibb.co/Vgm7D0b/restaurant.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+#card3 {
+    background: url(https://i.ibb.co/c6n44rt/devpro.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: 70%;
+}
+
+#card4 {
+    background: url(https://i.ibb.co/zP4RVhZ/michael-discenza-Mxfcoxyc-H-Y-unsplash.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card:hover {
+    transform: scale(1.07);
+}
+
+/* /CARD ROW ONE*/
+
+
+#con2-title{
+    color:whitesmoke;
+    padding:0 10px 0 30px;
+}
+#con2-title>h2{
+    font-size: 25px;
+}
+#con2-title>h4{
+    font-size: 20px;
+    color:rgb(200, 200, 200);
+}
+
+
