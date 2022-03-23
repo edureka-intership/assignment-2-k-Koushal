@@ -4,6 +4,9 @@
 
 body {
     background: rgb(15, 15, 15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #searchblock {
@@ -20,10 +23,10 @@ body {
 .video-bg {
     position: absolute;
     top: 0;
-    bottom: 0;
+    left: 0;
     min-width: 100%;
     min-height: 100%;
-    object-fit:cover;
+    object-fit: cover;
 
 }
 
@@ -242,19 +245,159 @@ select>option {
     transform: scale(1.07);
 }
 
-/* /CARD ROW ONE*/
-
-
-#con2-title {
-    color: whitesmoke;
-    padding: 0 10px 0 30px;
+/* /body ROW two*/
+#body-row2 {
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 0 2%;
 }
 
-#con2-title>h2 {
-    font-size: 25px;
+#row2-title {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
-#con2-title>h4 {
+#row2-title>h2 {
+    color: white;
+    font-size: 22px;
+    font-family: 'poppins', sans-serif;
+}
+
+#row2-title>h4 {
+    color: rgb(199, 199, 199);
+    font-size: 17px;
+    font-family: 'poppins', sans-serif;
+}
+
+#row2col {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 0 2%;
+    margin-bottom: 40px;
+}
+
+#row2colcardlink {
+    position: relative;
+    width: 100%;
+    height: 340px;
+    text-decoration: none;
+    color: white;
+    background: url(https://i.ibb.co/4JZk52D/chai.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    transition: top 4s ease;
+}
+
+.row2colcardtitle {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    background: rgb(0, 0, 0, 0.4);
+    border-radius: inherit;
+    text-shadow: 0 0 5px black;
+    box-shadow: 1px 1px 9px rgb(255, 255, 255, 0.2);
+
+}
+
+.row2colcardtitle>span,
+i {
+    font-size: 14px;
+    color: rgb(182, 182, 182);
+}
+
+.row2colcardtitle:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#row2colcardlink:hover {
+    transform: scale(1.07)
+}
+
+.row2colcardlink2 {
+    background: url(https://i.ibb.co/rwH8xjv/newrest.jpg) no-repeat !important;
+    ;
+    background-size: cover !important;
+    background-position-y: 100% !important;
+}
+
+.row2colcardlink3 {
+    background: url(https://i.ibb.co/9qYSz5Y/weektrend.jpg) no-repeat !important;
+    ;
+    background-size: cover !important;
+    background-position-y: 100% !important;
+}
+
+.row2colcardlink4 {
+    background: url(https://i.ibb.co/2KWW8sJ/beer.jpg) no-repeat !important;
+    ;
+    background-size: cover !important;
+    background-position-y: 100% !important;
+}
+footer{
+    border-top:5px double rgb(170, 170, 170);
+    width:95%;
+    padding:30px 10px;
+}
+.copy{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    color:yellow;
+    font-size: 10px;
+ 
+}
+.footercontent{
+
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    font-size: 15px;
+    align-items:center;
+}
+.footercontent>span:nth-child(2){
+    position: relative;
+    color:pink;
+    font-size: 13px;
+    text-align: center;
+}
+.footercontent>span>b,u{
+    color:#c2d7ff;
+    font-size:17px;
+    font-weight: 600;
+}
+.social>a>i{
+    color:white;
     font-size: 20px;
-    color: rgb(200, 200, 200);
+    margin-left: 20px;
+
+}
+.social{
+    display:flex;
+    padding:0;
+    justify-content:center;
+}
+
+.social>a>i:hover{
+    color:black;
+    font-weight: 600;
+    background:rgb(157, 192, 255);
+    border-radius: 50%;
+    padding:5px;
 }
