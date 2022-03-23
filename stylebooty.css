@@ -162,6 +162,8 @@ select>option {
     display: flex;
     justify-content: center;
     padding: 0 10px;
+    margin-bottom: 5%;
+    margin-top:2%;
 }
 
 #rowcol1 {
@@ -249,28 +251,31 @@ select>option {
 #body-row2 {
     position: relative;
     display: flex;
-    margin-top: 50px;
     width: 100%;
     justify-content: center;
     margin-bottom: 10px;
     padding: 0 2%;
+    margin: auto;
 }
 
 #row2-title {
     position: relative;
     width: 100%;
     margin-bottom: 20px;
+    text-align:center;
+    padding-left: 5%;
 }
 
 #row2-title>h2 {
     color: white;
     font-size: 22px;
     font-family: 'poppins', sans-serif;
+    text-align: center;
 }
 
 #row2-title>h4 {
     color: rgb(199, 199, 199);
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'poppins', sans-serif;
 }
 
@@ -330,14 +335,12 @@ i {
 
 .row2colcardlink2 {
     background: url(https://i.ibb.co/rwH8xjv/newrest.jpg) no-repeat !important;
-    ;
     background-size: cover !important;
     background-position-y: 100% !important;
 }
 
 .row2colcardlink3 {
     background: url(https://i.ibb.co/9qYSz5Y/weektrend.jpg) no-repeat !important;
-    ;
     background-size: cover !important;
     background-position-y: 100% !important;
 }
@@ -348,56 +351,64 @@ i {
     background-size: cover !important;
     background-position-y: 100% !important;
 }
-footer{
-    border-top:5px double rgb(170, 170, 170);
-    width:95%;
-    padding:30px 10px;
-}
-.copy{
-    display:flex;
-    justify-content: center;
-    margin-bottom: 15px;
-    color:yellow;
-    font-size: 10px;
- 
-}
-.footercontent{
 
-    margin-bottom: 10px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    color:white;
-    font-size: 15px;
-    align-items:center;
-}
-.footercontent>span:nth-child(2){
-    position: relative;
-    color:pink;
-    font-size: 13px;
+footer {
+    border-top: 5px double rgb(170, 170, 170);
+    width: 95%;
+    padding: 30px 10px;
     text-align: center;
 }
-.footercontent>span>b,u{
-    color:#c2d7ff;
-    font-size:17px;
+
+.copy {
+    display: flex;
+    text-align: start;
+    margin-bottom: 15px;
+    color: yellow;
+    font-size: 12px;
+}
+
+.footercontent {
+
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+
+}
+
+.footercontent>span:nth-child(2) {
+    position: relative;
+    color: pink;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footercontent>span>b,
+u {
+    color: #c2d7ff;
+    font-size: 15px;
     font-weight: 600;
 }
-.social>a>i{
-    color:white;
+
+.social>a>i {
+    color: white;
     font-size: 20px;
     margin-left: 20px;
-
-}
-.social{
-    display:flex;
-    padding:0;
-    justify-content:center;
 }
 
-.social>a>i:hover{
-    color:black;
+.social {
+    display: flex;
+    padding: 0;
+   text-align: end;
+}
+
+.social>a>i:hover {
+    color: black;
     font-weight: 600;
-    background:rgb(157, 192, 255);
+    background: rgb(157, 192, 255);
     border-radius: 50%;
-    padding:5px;
+    padding: 5px;
 }
