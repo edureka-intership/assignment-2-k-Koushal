@@ -7,17 +7,27 @@ body {
 }
 
 #searchblock {
-    background: url(https://i.ibb.co/M2q5VsQ/bg3.jpg) no-repeat;
+   
     background-size: cover;
     background-position-y: 70%;
+    position:relative;
     padding: 0;
     height: 70vh;
+    overflow:hidden;
+}
+.video-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+
 }
 
 .darkbg {
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.6);
     position: relative;
     display: flex;
     flex-direction: column;
