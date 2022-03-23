@@ -402,7 +402,7 @@ u {
 .social {
     display: flex;
     padding: 0;
-   text-align: end;
+   justify-content:flex-end;
 }
 
 .social>a>i:hover {
