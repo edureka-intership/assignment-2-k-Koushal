@@ -46,19 +46,31 @@
                 <p>Discover the best food & drinks in your location.</p>
             </div>
 
-            <div id="searchbar" class="col-12 col-lg-9 col-md-10 col-sm-12">
-                <select>
-                    <option>Select City</option>
-                    <option>Hyderabad</option>
-                    <option>Bengaluru</option>
-                    <option>Chennai</option>
-                    <option>Trivandrum</option>
-                    <option>Panaji </option>
-                </select>
-                <select>
-                    <option>Select Restaurants</option>
-                </select>
+            <div id="searchbarrow" class="row">
+                <div id="searchbar" class="col-12 col-lg-6 col-md-6 col-sm-12">
+                    <div class="input-group mb-0">
+                        <label class="input-group-text" for="inputGroupSelect01"><i class="fa-solid fa-location-dot" style="color:red; font-size:20px;"></i></label>
+                        <select class="form-select" id="inputGroupSelect01">
+                          <option selected>Choose your City</option>
+                          <option value="1">Hyderabad</option>
+                          <option value="2">Warangal</option>
+                          <option value="3">Bangalore</option>
+                          <option value="4">Mumbai</option>
+                          <option value="5">Panaji</option>
+                          <option value="6">Kochi</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="searchbar" class="col-12 col-lg-6 col-md-6 col-sm-12">
+                    <div class="input-group">
+                        <span class="input-group-text" id="addon-wrapping"><img src="https://img.icons8.com/glyph-neue/20/000000/search--v1.png"/></span>
+                        <input type="text" class="form-control" placeholder="Search Restaurants & food" aria-label="Username" aria-describedby="addon-wrapping">
+                      </div>
+
+                </div>
+                
             </div>
+
         </div>
 
 

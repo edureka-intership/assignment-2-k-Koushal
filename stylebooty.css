@@ -18,7 +18,6 @@ body {
     height: 70vh;
     width:100%;
     overflow: hidden;
-
 }
 
 .video-bg {
@@ -89,12 +88,25 @@ body {
     }
 }
 
+#searchbarrow{
+display:flex;
+position: relative;
+width:80%;
+padding:0;
+height:max-content;
+justify-content:center;
+align-items:center;
+
+}
 
 #searchbar {
     display: flex;
     justify-content: center;
-    padding: 0 2%;
-    height: 9%;
+    padding:1% 0.5%;
+}
+
+.input-group{
+    padding:0;
 }
 
 #searchbar>select {
